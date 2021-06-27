@@ -1,0 +1,68 @@
+.carousel-indicators li {
+    background-color: Gray;
+}
+
+.carousel-indicators li.active {
+    background-image: linear-gradient(to right, #ff8206, #ffd019);
+}
+
+#slider-bg {
+
+    background-image: url(images/bg-1.png), url(images/bg-2.png);
+    background-repeat: no-repeat, no-repeat;
+    height: 600px;
+    background-position: center, left bottom;
+}
+
+.margin-top {
+    margin-top: 100px;
+}
+
+.ancor-color {
+    color: #ff9d00;
+    font-weight: 700;
+}
+
+.card {
+    border: none;
+    box-shadow: 5px 5px 10px lightgrey;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.card-footer {
+
+    background-color: white;
+    border-top: none;
+}
+
+.horizontal-row {
+    width: 20%;
+    height: 10px;
+    margin: 0 auto;
+    border-radius: 10px;
+
+    background-image: linear-gradient(to right, #ff8206, #ffd019);
+
+}
+
+#box-shadow-one,
+#box-shadow-two,
+#box-shadow-three {
+    box-shadow: 2px 2px 25px lightgrey;
+    border-radius: 5px 10px 5px 35px;
+    width: 85%;
+    height: 45%;
+}
+
+#box-shadow-two {
+    border-radius: 15px 5px 35px 5px;
+}
+
+#box-shadow-three {
+    border-radius: 5px 15px 5px 35px;
+}
+
+.place-order {
+    width: 100%;
+}
